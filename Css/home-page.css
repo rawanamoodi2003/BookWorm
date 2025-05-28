@@ -1,0 +1,156 @@
+.worm {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 30px;
+    margin-left: 320px;
+    transform: translate(-50%, -50%);
+}
+.ii{
+    margin-left: -150px;
+    margin-top: -3px;
+    height: 130px;
+}
+.welcome {
+    font-size: 120px;
+    color: white;
+    display: block; 
+    margin-top: 230px;
+    margin-left: 80px;
+}
+
+.greeting {
+    background-color: #08a893;
+    height: 600px;
+    position: absolute; 
+    overflow: hidden; 
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.intro {
+    font-weight: 600;
+    font-weight: bold;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    text-align: left;
+    margin-top: -50px;
+    margin-left: 100px;
+}
+
+.para {
+    color: white;
+    font-size: 18px;
+    width: 700px;
+    margin-left: 100px;
+}
+
+.book {
+    width: 500px;
+    height: 500px;
+    margin-left: 60%;
+    margin-top: -410px;
+    z-index: 2;
+}
+
+.inside {
+    position: relative; 
+}
+
+.worms {
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+
+.category {
+    margin-top: 680px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 5%;
+    color: #026255;
+}
+
+.cat {
+    object-fit: cover;
+    object-position: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 110px;
+    margin-left: 70px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.cat:hover {
+    transform: translateY(-15px);
+}
+
+.btitle {
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 5%;
+    color: #026255;
+    margin-top: 36px;
+}
+
+.title {
+    margin-top: 92px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 5%;
+    color: #026255;
+}
+
+.s {
+    margin-top: 50px;
+}
+
+.a {
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+.h {
+    margin-left: -10px;
+    height: 300px;
+    background-color: white;
+}
+
+.r {
+    margin-top: 86px;
+}
+
+.b {
+    margin-left: 370px;
+}
+
+.b2 {
+    margin-left: -10px;
+    margin-left: 220px;
+}
+
+@keyframes float {
+    50% {
+        transform: translateY(-25px);
+    }
+}
+
+.floating-img {
+    animation: float 2.5s ease-in-out infinite;
+}
+
+.book-cover {
+    width: 210px;
+    height: 250px;
+    margin-left: 60px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.book-cover:hover {
+    transform: translateY(-20px); 
+}

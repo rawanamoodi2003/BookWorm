@@ -1,0 +1,19 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-image: repeating-linear-gradient(
+        0deg,
+        rgb(215, 212, 212),
+        1px,
+        white 1px,
+        white
+    );
+    background-size: 100% 30px;
+    background-color: white; 
+}
+
+a{
+    text-decoration: none;
+    color: black;
+
+}

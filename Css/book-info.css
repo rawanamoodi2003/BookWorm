@@ -1,0 +1,155 @@
+.book-display{
+    margin-left: 150px;  
+    margin-bottom: 20px;
+    margin-top:220px;
+    width: 1000px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.book-section{
+    margin-top: 250px;
+    background-color: rgb(254, 254, 254);
+    padding-bottom: 20px;
+    margin-left: -20px;
+}
+
+.book-cover {
+    width: 230px;
+    margin-left: 145px; 
+ 
+
+    
+
+}
+
+.add-book{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 130px;
+    margin-top: 20px;
+    width: 260px;
+    height: 40px;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer; 
+    padding: 10px;  
+
+}
+
+
+
+.buttons:hover{
+    opacity: 0.8;
+  }
+
+
+.wishlist-button{
+    background-color: #08a893;
+    border-color: #08a893;
+    border-style: solid;
+    color: white;
+    font-size: 16px;
+    padding: 1px 10px;
+}
+
+.cart-button{
+    background-color: #ffffff;
+    border-color: #08a893;
+    border-style: solid; 
+}
+
+.book-info{
+    margin-left: 70px;
+    flex-grow: 1;
+
+}
+
+
+
+
+.book-place{
+  margin-top: 0;
+  white-space:nowrap;
+  color: rgb(121, 121, 121);
+  font-family: Bad Script;
+}
+
+.book-title{
+    margin-top: -20px;
+    white-space:nowrap;
+    font-family: Arial;
+    font-size: 50px;
+}
+
+.book-author{
+    font-family:Georgia;
+    color: rgb(65, 65, 65);
+    margin-left: 10px;
+    font-size: 20px;
+    margin-top: -15px;
+}
+
+
+
+.book-rating{
+    margin-top: -70px;
+    display: flex;
+    align-items: center; 
+ 
+}
+
+.rating-num{
+    margin-left: 10px;
+    font-size: 30px;
+    font-family:Arial;
+    color: rgb(66, 65, 65);
+}
+
+.stars{
+    height: 30px;
+    margin-left: 10px;
+}
+
+.category{
+    margin-top: -40px;
+    font-size: 15px;
+    margin-left: 14px;
+    color: rgb(66, 65, 65);
+    font-family: 'Segoe UI';   
+}
+
+.plot{
+  font-family: Arial;
+  width: 700px;
+  margin-left:15px ;
+  margin-top: 0;
+}
+
+.more{
+    margin-left:15px ;
+}
+
+.details{
+    display: flex;
+    flex-direction: row;
+}
+
+.text-details{
+    margin-left:15px ;
+    color: rgb(66, 65, 65);
+}
+
+.pages{
+    margin-left: 60px;
+}
+
+.bookie{
+    display: block;
+    margin-left: -130px;
+    
+
+}
+

@@ -1,0 +1,50 @@
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.popup .popuptext {
+    visibility: hidden;
+    width: 120px;
+    font-size: 20px;
+    background-color: #08a893;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: -90px;
+    margin-left: 40px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.popup .at{
+    margin-left: 100px;
+}
+
+
+
+.popup:hover .popuptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+@-webkit-keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}

@@ -1,0 +1,54 @@
+footer{
+    margin-top: 960px;
+    height: 243px;
+    background-color: #08a893;
+    margin-left: -20px;
+}
+
+.help{
+
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.connect{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+.email{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.credits{
+    margin-top: -3px;
+    text-align: center;
+    color: white;
+}
+
+hr{
+    width:100%;
+    align:"center"
+}
+
+
+.call-shelby{
+    height: 160px;
+    margin-left: 100%;
+    margin-top: -500px;
+}
+
+.support-text{
+   display: inline-block;
+   margin-left: 40%;
+   margin-right: 0;
+}
+
+
+
+
+

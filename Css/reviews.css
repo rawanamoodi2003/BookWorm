@@ -1,0 +1,158 @@
+.rating-n-reviews{
+    margin-top: 350px;
+    background-color: white;
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    left:0;
+    right: 0;
+
+}
+
+
+.reviews{
+    width: 310px;
+    height: 220px;
+    border: 1px solid #ececec; 
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.swiper-slide{
+  margin-left: 5px;
+}
+
+.r-title{
+    font-size:40px;
+    margin-left: 80px;  
+}
+
+.user-title{
+  font-size:35px;
+  margin-left: 85px; 
+  margin-right: 0;
+
+}
+
+.profil{
+    height: 40px;
+    width: 40px;
+    border-radius:20px ;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.username{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: -30px;
+    margin-bottom: 0;
+}
+
+.time{
+    display: inline-block;
+    vertical-align: middle;
+     margin-right: 30px;
+     font-size: 12px;
+     margin-bottom: -3px;
+     margin-left: -77px;
+     color: rgb(65, 65, 65);
+}
+
+.comment{
+    margin-left: 10px;
+
+}
+
+.r-stars{
+   display: block;
+    height: 10px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.reviews-container{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+
+
+.rating {
+  display: inline-block;
+
+
+  margin-top: -20px;
+
+  
+}
+
+.rating input {
+  display: none;
+}
+
+.rating label {
+  float: right;
+  cursor: pointer;
+  color: #ccc;
+  transition: color 0.3s;
+}
+
+.rating label:before {
+  content: '\2605';
+  font-size: 60px;
+}
+
+.rating input:checked ~ label,
+.rating label:hover,
+.rating label:hover ~ label {
+  color: #6f00ff;
+  transition: color 0.3s;
+}
+
+.user-review{
+  margin-left: 400px;
+  margin-bottom: 60px;
+  margin-right: 60px;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 20px 30px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  transition: box-shadow 0.15s; 
+  vertical-align: top;
+}
+
+
+.user-review:hover{
+  opacity: 0.8; 
+
+}
+
+.question{
+  margin-left: 60px;
+}
+
+.swiper-pagination-bullet{
+ width: 30px;
+ height: 5px;
+
+}
+
+
+.slide-num{
+margin-top: 40px;
+}
+
+
+

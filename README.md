@@ -1,4 +1,4 @@
-# BookWorm 2 
+# BookWorm 
 
 **BookWorm 2** is a beautifully crafted web application for readers who love to explore the literary world. The platform allows users to discover books by genre, learn about famous authors, read community reviews, and browse through a virtual bookshop – all within an engaging and wormy-themed interface! 
 

@@ -26,12 +26,4 @@
 | Images     | PNGs, GIFs, popups, and icons    |
 | Additional | Swiper.js for smooth sliders     |
 
----
 
-##  Getting Started
-
-To run this project locally:
-
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/your-username/BookWorm.git

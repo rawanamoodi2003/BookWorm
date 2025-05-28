@@ -15,12 +15,8 @@
 }
 
 .book-cover {
-    width: 230px;
-    margin-left: 145px; 
- 
-
-    
-
+    width: 210px;
+    margin-left: 155px; 
 }
 
 .add-book{
@@ -51,8 +47,6 @@
     border-color: #08a893;
     border-style: solid;
     color: white;
-    font-size: 16px;
-    padding: 1px 10px;
 }
 
 .cart-button{

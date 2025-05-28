@@ -9,8 +9,6 @@
     box-sizing: border-box;
     border: solid 1px var(--gray-color);
     box-shadow: 2px 2px 5px var(--gray-color);
-
- 
     
 }
 
@@ -40,7 +38,7 @@
     top: 150px; /* Adjust based on the height of your header */
     left: 0;
     width: 200px; /* Adjust width as needed */
-
+    background-color: white;
     box-shadow: 2px 2px 5px var(--gray-color);
     z-index: 999; /* Ensure it is below the header but above other content */
 }
@@ -108,7 +106,7 @@
     font-size: 14px;
 }
 
-
+/* Footer */
 footer {
     padding: 20px;
     background-color: #fff;

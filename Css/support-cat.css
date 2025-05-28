@@ -1,12 +1,9 @@
 footer{
-    display:flex;
     margin-top: 60px;
-    height: 160px;
-    padding-top: 30px;
+    height: 243px;
     background-color: #08a893;
     margin-left: -200px;
     margin-right: -200px;
-    z-index: 3;
   
 
 }
@@ -25,7 +22,6 @@ footer{
 }
 
 .email{
-    margin-right: 2000px;
     text-align: center;
     color: white;
     font-size: 20px;

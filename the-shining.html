@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookWorm</title>
+    <link rel="stylesheet" href="Css/style.css">
+    <link rel="stylesheet" href="Css/header.css">
+    <link rel="stylesheet" href="Css/book-info.css">
+    <link rel="stylesheet" href="Css/authors.css"> 
+    <link rel="stylesheet" href="Css/reviews.css">
+    <link rel="stylesheet" href="Css/support.css">
+    <link rel="stylesheet" href="Css/swiper.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Bad+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+<body>
+ 
+    <header>
+        <img class="logo" src="images/icons/BookWorm-logo.png" alt="">
+        <div class="right">
+            <a href="home-page.html"><p class="headers-style">Home</p></a> 
+            <a href="Categories.html"> <p class="headers-style">Recommedations</p></a>
+            <a href="shop.html"> <p class="headers-style">Shop</p></a>
+        </div>
+    
+        <div class="middle">
+            <input  class="search-bar" type="text" placeholder="Search books">
+            <button class="search-button"><img class="search-icon" src="images/icons/Search-icon (2).png" alt=""></button>
+        </div>
+    
+        <div class="left">
+            <a href="sign-in.html"><p class="headers-style">Sign up</p></a>
+            <a href="login.html"><p class="headers-style">Log in</p></a>
+        </div>
+    </header>
+<article class="book-section">
+    <div class="book-display">
+        <div class="bookie">
+            <img class="book-cover" src="images/book covers/the-shining.jpeg " alt="">
+            <div class="buttons">
+                <a href="shop.html"><button class="add-book wishlist-button">Buy Now</button></a>
+
+            </div>
+         </div>
+         <div class="book-info">
+            <h3 class="book-place">The Number One Horror #1</h3>
+            <h1 class="book-title">The Shining</h1>
+            <h4 class="book-author">Stephen King</h4>
+            <div class="book-rating">
+                <img class="stars" src="images/rating/rating-45.png" alt="">
+                <h6 class="rating-num">4.45</h6>
+            </div>
+            <h6 class="category">Category: Horror literature</h6>
+            <p class="plot">Jack Torrance's new job at the Overlook Hotel is the perfect chance for a fresh start. As the off-season caretaker at the atmospheric old hotel, he'll have plenty of time to spend reconnecting with his family and working on his writing. But as the harsh winter weather sets in, the idyllic location feels ever more remote...and more sinister. And the only one to notice the strange and terrible forces gathering around the Overlook is Danny Torrance, a uniquely gifted five-year-old.</p>
+            <div class="details"> 
+                <p class="text-details ">Language: English</p>	
+                <p class="text-details pages">497 pages</p>  
+            </div>
+        </div>
+    </div>
+         
+
+</article>
+
+<article class="author">
+    <div class="text-block">
+        <h2 class="title">About The <br> Author</h2>
+    </div>
+    <div class="img-block">
+        <img class="author-pic" src="images/authors/stephen-king.jpg" alt="">
+        <div class="authors-info">
+            <h3 class="author-name">Stephen King</h3>
+            <p class="author-info">Stephen King is an American author known for his prolific and immensely successful contributions to the horror, supernatural fiction, suspense, and fantasy genres. Born on September 21, 1947, in Portland, Maine, King's works have sold over 350 million copies worldwide, making him one of the best-selling authors in history.</p>
+        </div>
+    </div>
+</article>
+
+<article class="rating-n-reviews">
+    <h2 class="r-title">Rating & Reviews</h2>
+
+
+
+    <button class="user-review">Write a Review</button>
+    <div class="rating">
+        <input value="5" name="rating" id="star5" type="radio">
+        <label for="star5"></label>
+        <input value="4" name="rating" id="star4" type="radio">
+        <label for="star4"></label>
+        <input value="3" name="rating" id="star3" type="radio">
+        <label for="star3"></label>
+        <input value="2" name="rating" id="star2" type="radio">
+        <label for="star2"></label>
+        <input value="1" name="rating" id="star1" type="radio">
+        <label for="star1"></label>
+        <p class="question">What do <em>you</em> think?</p>
+      </div>
+      <div id="reviews-container" class="reviews-container"></div>
+
+
+</article>    
+
+
+<footer class="support">
+  
+  <div class="support-text">
+    <h2 class="help">Need Help?</h2>
+    <h3 class="connect">Connect Our Support Team</h3>
+    <h4 class="email">bookworm@gmail.com</h4>
+    <hr>
+    <p class="credits">© 2024 BookWorm, Inc.</p>
+    <img class="call-shelby" src="images/icons/call-shelby (2).png" alt="">
+ 
+
+</div>
+<img src="images/profil pic/" alt="">
+</footer>
+
+
+<script src="scripts/reviews-the-shining.js"></script>
+<script src="scripts/swiper-bundle.min.js"></script>
+
+<script src="scripts/swip.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script src="scripts/swiper.js"></script>
+
+
+
+
+</body>
+</html>
+
